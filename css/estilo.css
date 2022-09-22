@@ -51,13 +51,13 @@ main {
 footer {
   grid-area: footer;
 }
-
+/* IMAGEN LOGO PAGINA*/
 .header img {
   width: 100px;
   border-radius: 20px;
   padding: 10px;
 }
-
+/*BARRA DE NAVEGACION*/
 .navbar-brand , .nav-link{
   font-size: 20px;
   color: grey;
@@ -66,7 +66,7 @@ footer {
 .container-fluid{
   margin-top: 10px;
 }
-
+/*SECCIONES DE PAGINA*/
 .secciones {
   font-family: 'Roboto', sans-serif;
   display: flex;
