@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!--TITULO - LOGO ICON-->
+    <title>alexander Hotel Resort</title>
+    <link rel="icon" href="../imagenes/favicon.ico">
+    <!--FUENTES:MONTSERRAT BOLD-ROBOTO LIGHT-->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <!--LINKS ANIMACIONES-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!--LINKS BOOTSTRAP-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <!--ESTILO CSS-->
+    <link rel="stylesheet" href="../css/estilo.css">
+</head>
+<body>
+    <!--IMAGEN LOGO DE LA PAGINA - SLOGAN DEL HOTEL-->
+    <div class="container">
+        <header class="header">
+            <img src="../imagenes/logohotel-pequeño.png" alt="logo">
+            <h1>
+                Tu Lugar en el Mundo
+            </h1>
+            <!--BARRA DE NAVEGACION-->
+            <nav class="navbar navbar-expand-lg bg-light">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="../index.html">Home</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./arteculinario.html">Habitaciones</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./arteculinario.html">Arte Culinario</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./eventos.html">Eventos especiales</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#" >Contacto</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+        </header>
+        <!--SECCIONES DE PAGINA-->
+        <main>
+        <section1 class="section1">
+            <div class="reservas">
+                <h2>
+                    Reserva tu Habitcion
+                </h2>
+                <div>
+                    <label for="noches">Noches de hospedaje</label>
+                    <select name="noches" id="">
+                    <option value="5">5 Noches</option>
+                    <option value="10">10 Noches</option>
+                    <option value="15">15 Noches</option>
+                    <option value="mas">Mas noches</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="suit">Cantidad de habitaciones</label>
+                    <select name="suit" id="">
+                    <option value="1">1 Habitacion</option>
+                    <option value="2">2 Habitaciones</option>
+                    <option value="3">3 Habitaciones</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="adultos">Cantidad de adultos</label>
+                    <select name="adultos" id="">
+                    <option value="2">2 Adultos</option>
+                    <option value="4">4 Adultos</option>
+                    <option value="6">6 Adultos</option>
+                    <option value="mas">Mas de 6 adultos</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="ninos">Cantidad de Niños</label>
+                    <select name="ninos" id="">
+                    <option value="2">2 Niños</option>
+                    <option value="4">4 Niños</option>
+                    <option value="6">6 Niños</option>
+                    <option value="mas">Mas de 6 niños</option>
+                    </select>
+                </div>
+                <div>
+                    <input type="submit" value="Reserva ahora">
+                </div>
+            </div>
+        </section1>
+        <section2 class="section2">
+            <div class="textos" data-aos="fade-left">
+                
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                      </div>
+                      <div class="mb-3 comentarios">
+                        <label for="exampleFormControlTextarea1" class="form-label">Dejanos u Comentario</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                      </div>
+                      <button type="button" class="btn btn-outline-dark">Enviar</button>
+            </div>
+        </section2>
+        <section3 class="section3">
+            <div data-aos="fade-left">
+                <h2 class="t-ubicacion" >
+                    Nuestra Ubicacion
+                </h2>
+                <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d957624.8205584063!2d-87.63610356666219!3d20.35310195533157!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4e4d76264b36e3%3A0x7db660e55fb2bd60!2sRiviera%20Maya%2C%20Q.R.%2C%20M%C3%A9xico!5e0!3m2!1ses-419!2sar!4v1661692863326!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section3>
+    </main>
+        <footer class="footer">
+            <!--LOGO FOOTER-->
+		<DIv>
+			<img src="../imagenes/logohotel-pequeño.png" class="rounded mx-auto d-block" alt="logo footer">
+		</DIv>
+        <!--CONTENIDO FOOTER-->
+		<h5> Alexander Hotel Resort 2022 Todos los derechos reservados R® </h5>
+		<a href="#top">
+				<button class="btn1"> Ir al top </button>
+		</a>
+	    </footer>
+      </div>
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script> AOS.init({  
+         easing: 'ease-out-back',duration: 2000 
+        })
+      </script>
+       <!-- JavaScript Bundle with Popper -->
+       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</body>
+</html>
