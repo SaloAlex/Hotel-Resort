@@ -1,9 +1,7 @@
 .footer {
     grid-area: footer;
     font-family: 'Roboto', sans-serif;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    @include flex(column, center, none);
     text-align: center;
 
     div {
@@ -15,11 +13,10 @@
     }
 
     .redes {
-        display: flex;
+        @include flex(none, none, space-around);
         list-style: none;
         padding: 0;
         width: 200px;
-        justify-content: space-around;
         li{
             a{
                 color: black;
@@ -30,7 +27,7 @@
 
     a {
         .btn1 {
-            background-color: rgb(104, 5, 91);
+            background-color: map-get($colores, "colorbtn-footer" );
             margin: 2px;
             padding: 10px;
             border-radius: 5px;
